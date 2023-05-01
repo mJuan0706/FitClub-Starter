@@ -9,9 +9,9 @@ const Plans = () => {
             <div className="blur plans-blur-1"></div>
             <div className="blur plans-blur-2"></div>
             <div className="programs-header" style={{gap : '2rem'}} >
-                <span className="stroke-text">READY TO START</span>
-                <span>YOUR JOURNEY</span>
-                <span className="stroke-text">NOW WITHUS</span>
+                <span className="stroke-text">LISTO PARA COMENZAR</span>
+                <span>SU VIAJE AHORA</span>
+                <span className="stroke-text">CON NOSOTROS</span>
             </div>
 
             {/* plans card */}
@@ -32,9 +32,9 @@ const Plans = () => {
                         </div>
 
                         <div>
-                            <span>See more benefits -></span>
+                            <span>Ver más beneficios -></span>
                         </div>
-                        <button className="btn">Join now</button>
+                        <button className="btn">Únete ahora</button>
                     </div>
                 ))}
             </div>

@@ -21,18 +21,18 @@ const Join = () => {
             <div className="left-j">
                 <hr />
                 <div>
-                    <span className="stroke-text">READY TO</span>
-                    <span>LEVEL UP</span>
+                    <span className="stroke-text">¿LISTO PARA</span>
+                    <span>SUBIR EL NIVEL</span>
                 </div>
                 <div>
-                    <span>YOUR BODY</span>
-                    <span className="stroke-text">WITH US?</span>
+                    <span>DE TU CUERPO</span>
+                    <span className="stroke-text">CON NOSOTROS?</span>
                 </div>
             </div>
             <div className="right-j">
                 <form ref={form} className="email-container" onSubmit={sendEmail}>
-                    <input type="email" name="user_email" placeholder="Enter your Email address" />
-                    <button className="btn btn-j">Join Now</button>
+                    <input type="email" name="user_email" placeholder="Ingrese su dirección de correo electrónico" />
+                    <button className="btn btn-j">Únete ahora</button>
                 </form>
             </div>
         </div>

@@ -25,20 +25,20 @@ const Hero = () => {
                     whileInView={{left: '8px'}}
                     transition={{...transition, type: 'tween'}}
                     ></motion.div>
-                    <span>the best fitness club in the town</span>
+                    <span>el mejor gimnasio de la ciudad</span>
                 </div>
                {/* Hero Heading */}
                 <div className="hero-text">
                     <div>
-                        <span className="stroke-text" >Shape </span>
-                        <span>Your</span>
+                        <span className="stroke-text" >Moldea </span>
+                        <span>Tu</span>
                     </div>
                     <div>
-                        <span>Ideal body</span>
+                        <span>cuerpo ideal</span>
                     </div>
                     <div>
                         <span>
-                    In here we will help you to shape and build your ideal body and live up your life to fullest
+                        Aquí te ayudaremos a moldear y construir tu cuerpo ideal y vivir tu vida al máximo.
                         </span>
                     </div>
                 </div>
@@ -46,11 +46,11 @@ const Hero = () => {
                 <div className="figures">
                     <div>
                         <span>+ 140</span>
-                        <span>expert coaches</span>
+                        <span>Entrenadores expertos</span>
                     </div>
                     <div>
                         <span>+ 978</span>
-                        <span>MEMBERS JOINED</span>
+                        <span>MIEMBROS UNIDOS</span>
                     </div>
                     <div>
                         <span>+ 50</span>
@@ -60,12 +60,12 @@ const Hero = () => {
 
                 {/* hero buttons */}
                 <div className="hero-buttons">
-                    <button className="btn">Get Started</button>
-                    <button className="btn">Learn More</button>
+                    <button className="btn">Empezar</button>
+                    <button className="btn">Aprende más</button>
                 </div>
             </div>
             <div className="right-h">
-                <button className="btn" >Join Now</button>
+                <button className="btn" >Únete ahora</button>
 
                 <motion.div
                 initial={{right: '-1rem'}}
@@ -73,7 +73,7 @@ const Hero = () => {
                 transition={transition}
                 className="heart-rate">
                     <img src={Heart} alt="" />
-                    <span>Heart Rate</span>
+                    <span>Ritmo cardiaco</span>
                     <span>116 bpm</span>
                 </motion.div>
 
@@ -93,7 +93,7 @@ const Hero = () => {
                 className="calories">
                     <img src={Calories} alt="" />
                     <div>
-                    <span>Calories Burned</span>
+                    <span>Calorías quemadas</span>
                     <span>220 kcal</span>
                     </div>
                 </motion.div>

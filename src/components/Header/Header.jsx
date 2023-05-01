@@ -38,25 +38,25 @@ const Header = () => {
             to='programs'
             spy={true}
             smooth={true}
-            >Programs</Link></li>
+            >Programas</Link></li>
             <li><Link 
             onClick={()=>setMenuOpened(false)}
             to='reasons'
             spy={true}
             smooth={true}
-            >Why us</Link></li>
+            >Por qué nosotros</Link></li>
             <li><Link 
             onClick={()=>setMenuOpened(false)}
             to='plans'
             spy={true}
             smooth={true}
-            >Plans</Link></li>
+            >planes</Link></li>
             <li><Link
             onClick={()=>setMenuOpened(false)}
             to='Testimonials'
             spy={true}
             smooth={true}
-            >Testimonials</Link></li>
+            >Testimonios</Link></li>
         </ul>
         )}
         </div>

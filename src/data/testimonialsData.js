@@ -6,20 +6,20 @@ export const testimonialsData = [
   {
     image: image1,
     review:
-      "I made the right choice by choosing the Fitclub and by choosing the right plan and program I already achieved my ideal body!",
+      "¡Tomé la decisión correcta al elegir el Fitclub y al elegir el plan y el programa correctos ya logré mi cuerpo ideal!",
     name: 'MATHEW HENDRICKSON',
-    status : 'ENTREPRENEUR'
+    status : 'EMPRENDEDOR'
   },
   {
     image: image2,
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
+    review: 'Lleve su salud y su cuerpo al siguiente nivel con nuestro programa integral diseñado para ayudarlo a alcanzar sus objetivos de acondicionamiento físico.',
     name: 'JOHN KEVIN',
-    status: 'COACH'
+    status: 'ENTRENADOR'
   },
   {
     image : image3,
-    review:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem',
+    review:'He sido miembro de Fitclub durante los últimos 6 meses y ha sido una experiencia increíble. Los capacitadores están bien informados y brindan apoyo, el equipo es de primera categoría y la comunidad de miembros es amigable y alentadora.',
     name: 'FRANKLIN',
-    status: "CUSTOMER"
+    status: "CLIENTE"
   }
 ];
